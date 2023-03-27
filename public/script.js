@@ -25,7 +25,7 @@ const getAllThreads = async () => {
         </div>
       `;
       })
-      .join("");
+      .join("");  //This is to remove , between data
     
     threadSectionDOM.innerHTML = allThreads;
   } catch (err) {
